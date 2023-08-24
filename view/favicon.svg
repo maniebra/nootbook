@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg3270" viewBox="0 0 363.25 359.45" version="1.0">
+  <g id="layer1" transform="translate(-326.38 -185.68)">
+    <g id="g3306" fill-rule="evenodd" transform="matrix(1.9918 0 0 1.9918 -1216.9 -793.82)">
+      <path id="path3308" d="m955.27 581.99c0 49.8-40.42 90.22-90.22 90.22s-90.22-40.42-90.22-90.22 40.42-90.22 90.22-90.22 90.22 40.42 90.22 90.22z" fill="#fff"/>
+      <path id="path3310" d="m865.02 491.81c-49.73 0-90.1 40.3-90.21 90.02 2.08-4.74 4.45-9.38 7.13-13.87 6.71-39.81 41.38-70.2 83.08-70.2 26.56 0 50.26 12.32 65.71 31.54 2.73 0.25 5.5 0.62 8.2 1.07-16.31-23.31-43.31-38.56-73.91-38.56zm77.23 56.43c4.53 10.34 7.03 21.78 7.03 33.78 0 19.22-6.53 36.88-17.38 51.06 0.5 1.37 0.99 2.77 1.37 4.2 0.53 0.78 0.93 1.51 1.27 2.25 12.92-15.62 20.69-35.67 20.69-57.51 0-11.86-2.37-23.21-6.54-33.58-1.29-0.02-2.6-0.06-3.8-0.1-0.89-0.08-1.76-0.09-2.64-0.1zm-149.38 77.23c-1.09 2.07-2.17 4.05-3.32 5.95 16.12 24.59 43.9 40.81 75.47 40.81 17.75 0 34.28-5.2 48.23-14.06-0.8-1.61-1.43-3.6-2.14-5.66-13.26 8.7-29.06 13.77-46.09 13.77-30.59 0-57.39-16.39-72.15-40.81z" fill="#000080"/>
+      <path id="path3312" fill="#000080" d="m861.7 522.66c-8.39 0.22-16.71 2.01-24.7 5.08-33.06 11.95-48.44 38.44-61.21 67.07 1.53 10.79 4.96 20.95 9.96 30.17l14.93-23.73c18.37-21.05 65.29 7.71 73.81 13.48-21.33-27.79-64.69-28.7-79.27-26.85-10.14-10.34 5.5-28.86 21.57-40.32 0.27 11.92 0.81 23.68 6.55 32.02 17.34 10.79 37.47 4.28 51.64 12.5 19.53 16.54 34.1 38.37 44.03 62.19 3.65-2.74 7.06-5.74 10.25-8.98-4.27-16.02-13.24-31.8-30.65-45.11-5.27-25.66 2.75-40.37 19.13-51.45 8.64-4.86 21.16-7.39 39.45-6.64-28.22-10.59-40.5-6.59-53.99-5.66-13.27-10.04-27.51-14.13-41.5-13.77zm-5.56 11.03c5.83 0 10.54 4.72 10.54 10.55s-4.71 10.54-10.54 10.54-10.54-4.71-10.54-10.54 4.71-10.55 10.54-10.55zm58.68 8.69c1.9-0.05 3.82-0.03 5.85 0-10.06 1.31-22.13 4.57-24.01 11.52-4.21 10.82-18.82 2.65-12.99-2.34 7.47-6.46 17.8-8.84 31.15-9.18z"/>
+    </g>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>headoftux_revised</dc:title>
+        <dc:date>2008-12-29T06:22:09</dc:date>
+        <dc:description>animal, animal, clip art, clipart, cool, cool, head, head, image, linux, linux, logo, logo, media, penguin, penguin, public domain, silhouette, silhouette, svg, </dc:description>
+        <dc:source>http://openclipart.org/detail/20914/headoftux_revised-by-baabullah</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>baabullah</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>animal</rdf:li>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>cool</rdf:li>
+            <rdf:li>head</rdf:li>
+            <rdf:li>image</rdf:li>
+            <rdf:li>linux</rdf:li>
+            <rdf:li>logo</rdf:li>
+            <rdf:li>media</rdf:li>
+            <rdf:li>penguin</rdf:li>
+            <rdf:li>public domain</rdf:li>
+            <rdf:li>silhouette</rdf:li>
+            <rdf:li>svg</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

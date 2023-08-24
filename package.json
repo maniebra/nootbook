@@ -1,0 +1,23 @@
+{
+  "name": "nootbook",
+  "version": "1.0.0",
+  "description": "A notebook similiar to Jupyter with markdown support",
+  "main": "./srv/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "notebook"
+  ],
+  "author": "Mani Ebrahimi",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "codemirror": "^6.0.1",
+    "express": "^4.18.2",
+    "expressjs": "^1.0.1",
+    "katex": "^0.16.8",
+    "mathjax": "^2.7.7",
+    "puppeteer": "^21.1.0"
+  }
+}

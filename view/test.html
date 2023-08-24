@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NootBook</title>
+
+    <link rel="stylesheet" href="/prism.css" />
+    <link rel="stylesheet" href="/styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+          tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] }
+      });
+    </script>
+  </head>
+  <body>
+    <div class="header">
+      <h1 class="site-title">
+        NO<img src="/favicon.svg" class="favicon" />TBOOK
+      </h1>
+      <input placeholder="Notebook title..." id="notebook-title" />
+      <div class="container">
+        <div id="visibility" class="subtool">
+          <button class="toolbar-button" onclick="editorOnly()">
+            Editor Only
+          </button>
+          <button class="toolbar-button" onclick="editorPreview()">
+            Editor & Preview
+          </button>
+          <button class="toolbar-button" onclick="previewOnly()">
+            Preview Only
+          </button>
+        </div>
+        <div id="saveload" class="subtool">
+          <button class="toolbar-button" onclick="save()">Save</button>
+          <input type="file" id="fileInput" style="display: none" />
+          <button class="toolbar-button" onclick="load()">Load</button>
+        </div>
+        <div class="subtool" id="" prefs>
+          <button
+            class="toolbar-button"
+            onclick="toggleRun()"
+            id="toggleRunButton"
+          >
+            Run Notebook
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="containers">
+      <div id="editor" class="sub-cont">
+        <textarea id="markdown" placeholder="Enter your markdown..."></textarea>
+        <button id="renderButton" style="display: none">RENDER</button>
+      </div>
+      <div id="preview" class="sub-cont">
+        <div id="rendered">TEXT GOES HERE...</div>
+        <canvas id="canvas" style="display: none"></canvas>
+        <button id="generate-pdf" style="display: none">Generate PDF</button>
+        <a id="downloadLink" style="display: none">Download Snapshot</a>
+      </div>
+    </div>
+
+    <script src="/renderer.js"></script>
+    <script src="/prism.js"></script>
+    <script src="/runner.js"></script>
+    <script src="/utils.js"></script>
+    <script src="/ui.js"></script>
+
+    <script>
+      Prism.highlightAll();
+    </script>
+  </body>
+</html>

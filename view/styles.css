@@ -1,0 +1,376 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("http://127.0.0.1:8080/fonts/Poppins/Poppins-Medium.ttf");
+
+  font-style: normal;
+}
+
+textarea {
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 7px;
+  resize: none;
+  overflow-y: hidden;
+  background-color: #303030;
+  font-size: 12pt;
+  color: #ccc;
+  transition-duration: 100ms;
+}
+
+textarea:hover {
+  border: 4px solid #ccc;
+  box-shadow: 0 0 15px 2px #111;
+}
+
+button {
+  padding: 10px;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  border-radius: 7px;
+  background-color: #202020;
+  color: #ccc;
+  font: bolder;
+  letter-spacing: 1pt;
+  cursor: pointer;
+  transition-duration: 100ms;
+}
+
+button:hover {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+body {
+  background-color: #171717;
+  background-image: linear-gradient(00deg, #555 1px, transparent 1px);
+  background-size: 40px 40px; /* Adjust the size of the grid squares */
+  background-position: 20%;
+  margin: 0;
+  padding: 0;
+  color: #ccc;
+}
+
+code {
+  background-color: #4c4c4c;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.equation {
+  background-color: #40404077;
+  margin: 5px;
+  padding: 1px;
+  border-radius: 5px;
+}
+
+.inline-equation {
+  display: inline-block;
+  background-color: #4c4c4c;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+a {
+  color: #a0a0a0;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto; /* Adjust this as needed */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+}
+
+.site-title {
+  font-family: "Poppins";
+  text-align: center;
+  color: #fff;
+  margin: 10px;
+  letter-spacing: 2pt;
+  transition-duration: 100ms;
+  background: rgb(13, 13, 13);
+  background: radial-gradient(
+    circle,
+    rgba(13, 13, 13, 1) 0%,
+    rgba(255, 255, 255, 0) 20%
+  );
+}
+
+.site-title:hover {
+  text-shadow: 0 0 10pt #eee;
+  letter-spacing: 3pt;
+  white-space: 4pt;
+}
+
+.sub-cont {
+  width: 48%;
+  float: left;
+  padding: 1%;
+  margin: 1%;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  box-shadow: 0 0 20px 2px #000;
+  box-sizing: border-box;
+  background-color: #333333ee;
+  gap: 0;
+  transition-duration: 100ms;
+}
+
+.sub-cont:hover {
+  border: 3px solid #eee;
+  box-shadow: 0 0 20px 2px #777;
+}
+
+.favicon {
+  width: 24px;
+  height: 24px;
+  filter: saturate(0);
+}
+
+.rendered {
+  opacity: 100;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid black;
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 20px auto;
+  background-color: #404040;
+}
+
+/* Style for table headers */
+th {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Style for table rows */
+tr {
+  border-bottom: 1px solid black;
+}
+
+/* Style for alternate row colors */
+tr:nth-child(even) {
+  background-color: #494949;
+}
+
+/* Style for table cells */
+td {
+  padding: 10px;
+}
+
+/* Add hover effect to table rows */
+tr:hover {
+  background-color: #999;
+  color: #111;
+}
+
+/* Add border-radius to the first and last rows */
+tr:first-child {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+tr:last-child {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+blockquote {
+  background-color: #40404077;
+  margin: 5px;
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 4px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  border-left: 4px solid #ccc;
+}
+
+html {
+  font-family: "Poppins";
+}
+
+.toolbar-button {
+  padding: 10px;
+  height: 35px;
+  box-sizing: border-box;
+  border: 0px solid #ccc;
+  border-radius: 7px;
+  background-color: #aaa; /* Light gray background */
+  color: #333; /* Dark gray text color */
+  font-weight: bold; /* Use 'bold' instead of 'bolder' */
+  letter-spacing: 1px; /* Corrected property name */
+  cursor: pointer;
+  transition-duration: 0.3s; /* Slightly longer transition */
+  clip: auto;
+  text-overflow: clip;
+  overflow-wrap: break-word;
+}
+
+.toolbar-button:hover {
+  flex: 0 0 auto;
+  background-color: #eee; /* Light gray background on hover */
+  color: #111; /* Dark gray text color on hover */
+  padding-left: 15px; /* Smaller padding increase on hover */
+  padding-right: 15px; /* Smaller padding increase on hover */
+  box-shadow: 0px 2px 20px rgb(0, 0, 0); /* Subtle box shadow on hover */
+}
+
+.subtool {
+  display: flex;
+  flex-direction: row; /* Forces elements to be in a row */
+  flex-wrap: nowrap;
+  margin: 1%;
+  float: left;
+  border-radius: 7px;
+  background-color: #20202087;
+  width: calc((96% / 3) - (margin * 2));
+  gap: 20px;
+  transition-duration: 500ms;
+}
+
+.subtool:hover {
+  box-shadow: 0 0 20px #cccccc66;
+}
+
+.run-code {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+}
+
+.code-snippet {
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  border-color: #ccc;
+  border-width: 1px;
+  border-radius: 7px;
+  background-color: #222;
+  padding: 2%;
+  margin: 2%;
+  gap: 1.5%;
+}
+
+.output {
+  display: flex;
+  flex-direction: column;
+  gap: 0%;
+  margin: 2%;
+  padding: 2%;
+  background-color: #10101055;
+  border-radius: 7px;
+}
+
+.output-title {
+  font-size: 10pt;
+}
+
+input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ddd;
+  background-color: #222;
+  border-radius: 7px;
+  margin-bottom: 1%;
+  padding: 1%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #eee;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  background-color: #121212dd;
+  border-bottom-left-radius: 17px;
+  border-bottom-right-radius: 17px;
+  padding: 10px 0;
+  margin-bottom: 1%;
+  box-shadow: 0 0 15px #000;
+}
+
+#execute-all {
+  background-color: #20202099;
+  padding: 1%;
+  border-radius: 7px;
+  padding: 2%;
+}
+
+#run-all-codes {
+  display: flex;
+  gap: 10%;
+  flex-direction: row;
+}
+
+/* Style the scrollbar track */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #222;
+  border-radius: 10px;
+}
+
+/* Style the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 10px;
+}
+
+/* Style the scrollbar thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #999;
+}
+
+/* Style the scrollbar corner */
+::-webkit-scrollbar-corner {
+  background-color: #222;
+}
+
+/* For Firefox */
+/* Style the scrollbar track */
+scrollbar {
+  width: 12px;
+}
+
+scrollbar-track {
+  background-color: #222;
+  border-radius: 10px;
+}
+
+/* Style the scrollbar thumb */
+scrollbar-thumb {
+  background-color: #555;
+  border-radius: 10px;
+}
+
+/* Style the scrollbar thumb on hover */
+scrollbar-thumb:hover {
+  background-color: #999;
+}
+
+/* Style the scrollbar corner */
+scrollbar-corner {
+  background-color: #222;
+}
