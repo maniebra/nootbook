@@ -48,7 +48,6 @@ function load() {
         const name = event.target.name;
         document.getElementById("notebook-title").value = name;
         document.getElementById("markdown").value = content;
-        console.log(event.target);
         renderAll();
         document.getElementById("markdown").style.height = "auto";
         document.getElementById("markdown").style.height = `${

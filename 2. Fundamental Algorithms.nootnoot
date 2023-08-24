@@ -1,0 +1,22 @@
+# Algorithms and Data Structures
+## 2. Fundamental Algorithms
+
+### 2.1 Insertion sort:
+Insertion sort is a simple sorting algorithm that works by repeatedly inserting elements into a sorted portion of the array. Here's how it works step-by-step:
+\\\\
+Start with the second element of the array.
+Compare the second element with the first element. If it is smaller, swap them.
+Move to the third element and insert it into the correct position in the sorted portion of the array.
+Repeat this process for all remaining elements.
+For example, let's sort the array [5, 2, 4, 6, 1, 3]:
+
+- Step 1: [2, 5, 4, 6, 1, 3]
+- Step 2: [2, 4, 5, 6, 1, 3]
+- Step 3: [2, 4, 5, 6, 1, 3]
+- Step 4: [1, 2, 4, 5, 6, 3]
+- Step 5: [1, 2, 3, 4, 5, 6]
+### 2.2 Analyzing algorithms:
+Analyzing algorithms helps us understand their efficiency and performance. We often measure the efficiency in terms of the input size and the number of operations performed by the algorithm. This analysis helps us compare different algorithms and choose the most efficient one for a given problem.
+
+### 2.3 Designing algorithms:
+Designing algorithms involves creating step-by-step instructions to solve a problem efficiently. There are different approaches to algorithm design, such as brute force, divide and conquer, dynamic programming, and greedy algorithms. Each approach has its own advantages and considerations, depending on the problem at hand.

@@ -1,0 +1,26 @@
+# Algorithms and Data Structures
+## 3. Efficiency of Algorithms
+
+Section 3, which covers the topic of growth of functions. Understanding the growth rate of functions is crucial for analyzing the efficiency of algorithms
+
+### 3.1 Asymptotic notation:
+Asymptotic notation is a way to describe the behavior of functions as the input size tends towards infinity. It allows us to focus on the most significant terms and ignore lower-order terms and constants. Here are the commonly used asymptotic notations:
+\\
+- Big O notation ($O$): It represents the upper bound of the function's growth rate. For example, if an algorithm has a time complexity of $O(n^2)$, it means that the running time grows quadratically with the input size.
+
+- Omega notation ($\Omega$): It represents the lower bound of the function's growth rate. For example, if an algorithm has a time complexity of $\Omega(n)$, it means that the running time grows linearly with the input size.
+
+- Theta notation ($\Theta$): It represents both the upper and lower bounds of the function's growth rate. For example, if an algorithm has a time complexity of $\Theta(n)$, it means that the running time grows linearly with the input size and has a tight bound.
+
+### 3.2 Standard notations and common functions:
+In addition to asymptotic notation, there are some standard notations used to describe the growth rate of common functions. Here are a few examples:
+
+- Constant ($O(1)$): The running time or space complexity remains constant regardless of the input size. For example, accessing an element in an array takes constant time.
+
+- Logarithmic ($O(\log n)$): The running time or space complexity grows logarithmically with the input size. For example, binary search has a logarithmic time complexity.
+
+- Linear ($O(n)$): The running time or space complexity grows linearly with the input size. For example, a simple loop that iterates through each element of an array has a linear time complexity.
+
+- Quadratic ($O(n^2)$): The running time or space complexity grows quadratically with the input size. For example, nested loops that iterate through an array have a quadratic time complexity.
+
+It's important to understand these notations to analyze and compare the efficiency of different algorithms. By using asymptotic notation, we can focus on the overall growth rate and make informed decisions about algorithm selection.

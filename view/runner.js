@@ -40,6 +40,7 @@ async function serverRunCode(code, block) {
   }
 
   const data = await response.json();
+  console.log(data);
 
   // Assuming `data` is a string containing HTML content
   if (block.innerHTML.includes('<div class="output">')) {
@@ -47,11 +48,9 @@ async function serverRunCode(code, block) {
       /<div class="output">.*?<\/div>/g,
       `<div class="output"><p class="output-title">Output: </p><code class="stdout">${data.message}</code></div>`
     );
+    console.log(data.message);
   } else {
-    block.innerHTML += `<div class="output"><p class="output-title">Output: </p><code class="stdout">${data.message.replace(
-      "\n",
-      "<br>"
-    )}</code></div>`;
+    block.innerHTML += `<div class="output"><p class="output-title">Output: </p><code class="stdout">${data.message}</code></div>`;
   }
   block.style.height = "auto";
   block.style.height = `${block.scrollHeight}px`;

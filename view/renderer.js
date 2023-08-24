@@ -5,9 +5,12 @@ function renderMarkdown(text, runEachCell) {
 
   text = text.toString();
   text += "\n";
-  text = text.replace("<", "&lt;");
+
   while (text.includes("\\\\")) {
     text = text.replace("\\\\", "<br>");
+  }
+  while (text.includes("<")) {
+    text = text.replace("<", "&lt;");
   }
   // Convert markdown syntax to corresponding HTML
   text = text.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>"); // Bold

@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Poppins";
-  src: url("http://127.0.0.1:8080/fonts/Poppins/Poppins-Medium.ttf");
+  src: url("/fonts/Poppins/Poppins-Medium.ttf");
 
   font-style: normal;
 }
