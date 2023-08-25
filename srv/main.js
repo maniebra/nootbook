@@ -162,6 +162,35 @@ app.post("/run", (req, res) => {
     // Pass input to the Python code via stdin
     childProcess.stdin.write(`${input}\n`);
     childProcess.stdin.end();
+    childProcess.on("exit", (code, signal) => {
+      fs.unlink(pythonFilePath, (err) => {
+        console.log(err);
+      });
+    });
+  } else if (language == "javascript" || language == "js") {
+    const jsFilePath = "temp.js";
+    const fs = require("fs");
+    fs.writeFileSync(jsFilePath, code);
+
+    const executeCommand = `node ${jsFilePath}`;
+    const childProcess = exec(executeCommand, (error, stdout, stderr) => {
+      if (error) {
+        console.error("Error:", error);
+        res.json({ message: error });
+        return;
+      }
+      console.log("Program output:\n", stdout);
+      res.json({ message: stdout });
+    });
+
+    childProcess.stdin.write(`${input}\n`);
+    childProcess.stdin.end();
+
+    childProcess.on("exit", (code, signal) => {
+      fs.unlink(jsFilePath, (err) => {
+        console.log(err);
+      });
+    });
   } else {
     console.log(data);
     res.json({ message: "wtf?" });

@@ -10,7 +10,7 @@ To use Nootbook, follow these steps:
 
 1. Install NodeJS and NPM.
 2. Download This Project.
-3. Execute `node ./srv/main.js` in your command prompt.
+3. Execute `node ./srv/main.js` in your command prompt (from project's root directory).
 4. Open [_Localhost_](http://127.0.0.1:12358) with port **12358** in your browser.
 
 ## Credits
@@ -55,7 +55,7 @@ The following languages are supported in the current version of this application
 | Haskell           | ❌      |
 | HTML/CSS          | ❌      |
 | Java              | ⌛      |
-| JavaScript        | ⌛      |
+| JavaScript        | ✅      |
 | Julia             | ❌      |
 | Kotlin            | ⌛      |
 | Lisp              | ❌      |
