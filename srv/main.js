@@ -89,6 +89,9 @@ app.post("/save", (req, res) => {
   const fs = require("fs");
   fs.writeFileSync(`${title}.nootnoot`, markdown);
   res.sendFile(path.join(__dirname, "..", `${title}.nootnoot`));
+  fs.unlink(path.join(__dirname, "..", `${title}.nootnoot`), (err) => {
+    console.log(err);
+  });
 });
 
 app.post("/run", (req, res) => {

@@ -4,6 +4,15 @@
 
 An efficient and easy to use interactive notebook, with support of many languages and plain text for pseudocodes.
 
+## How to Use
+
+To use Nootbook, follow these steps:
+
+1. Install NodeJS and NPM.
+2. Download This Project.
+3. Execute `node ./srv/main.js` in your command prompt.
+4. Open [_Localhost_](http://127.0.0.1:12358) with port **12358** in your browser.
+
 ## Credits
 
 This app was made possible by:
@@ -11,6 +20,7 @@ This app was made possible by:
 - Prism
 - MathJax
 - ExpressJS
+- Google Fonts
 
 ## Language Support
 

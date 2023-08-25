@@ -46,7 +46,8 @@ function load() {
       reader.onload = function (event) {
         const content = event.target.result;
         document.getElementById("markdown").value = content;
-        const name = fileInput.value.split("\\")[2];
+        const name = fileInput.value.split("\\")[2].replace(/\.[^.]+$/, "");
+
         document.getElementById("notebook-title").value = name;
         renderAll();
         document.getElementById("markdown").style.height = "auto";
