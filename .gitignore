@@ -1,3 +1,4 @@
 ./temp.cpp
 ./node_modules
 ./output
+node_modules/

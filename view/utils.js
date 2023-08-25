@@ -45,9 +45,9 @@ function load() {
 
       reader.onload = function (event) {
         const content = event.target.result;
-        const name = event.target.name;
-        document.getElementById("notebook-title").value = name;
         document.getElementById("markdown").value = content;
+        const name = fileInput.value.split("\\")[2];
+        document.getElementById("notebook-title").value = name;
         renderAll();
         document.getElementById("markdown").style.height = "auto";
         document.getElementById("markdown").style.height = `${
